@@ -1,0 +1,23 @@
+@mixin flex_center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin devices($min,$max){
+    @media only screen and (min-width: $min) and (max-width:$max){
+        @content;
+    }
+}
+
+@mixin devices_min($min){
+    @media only screen and (min-width: $min){
+        @content;
+    }
+}
+
+@mixin devices_max($max){
+    @media only screen and (max-width: $max){
+        @content;
+    }
+}

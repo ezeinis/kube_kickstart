@@ -1,0 +1,23 @@
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 60px;
+  padding-left: 60px; }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px; } }
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+      padding-right: 25px;
+      padding-left: 25px; } }
+  @media only screen and (max-width: 480px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+.container-fluid {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
