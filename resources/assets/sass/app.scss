@@ -1,44 +1,10 @@
-// Variables
-@import "variables";
+//imports
+@import 'vendors/module';
+@import 'utils/module';
+@import 'base/module';
+@import 'layout/module';
 
-// Mixins
-@import "mixins";
 
-// Kube
-@import "kube";
 
-// General
-.container{
-    max-width:1400px;
-    margin-left:auto;
-    margin-right:auto;
-    padding-right: 60px;
-    padding-left: 60px;
-    @include devices(768px,992px){
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    @include devices(480px,768px){
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-    @include devices_max(480px){
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-}
-.container-fluid{
-    width: 100%;
-}
-#site_wrap{
 
-}
 
-// Header
-@import "header";
-
-// Footer
-@import "footer";
-
-// index page
-@import "index";

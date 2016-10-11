@@ -1,0 +1,10 @@
+$font-scale: (
+  -1: 0.75rem,  // small text
+  0: 1rem,      // body text
+  1: 1.333rem,  // large text
+  2: 1.777rem   // main heading
+);
+
+@function font-scale($level) {
+  @return map-get($font-scale, $level);
+}
