@@ -1,22 +1,38 @@
-@mixin flex_center{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+@mixin devices($breakpoint_min,$breakpoint_max){
+  $min_pixels: map-get($breakpoints,$breakpoint_min);
+  $max_pixels: map-get($breakpoints,$breakpoint_max);
+  @media only screen and (min-width: $min_pixels) and (max-width:$max_pixels){
+    @content;
+  }
 }
 
-@mixin devices($min,$max){
+@mixin devices_min($breakpoint_min){
+  $min_pixels: map-get($breakpoints,$breakpoint_min);
+  @media only screen and (min-width: $min_pixels){
+    @content;
+  }
+}
+
+@mixin devices_max($breakpoint_max){
+  $max_pixels: map-get($breakpoints,$breakpoint_max);
+  @media only screen and (max-width: $max_pixels){
+    @content;
+  }
+}
+
+@mixin custom_devices($min,$max){
     @media only screen and (min-width: $min) and (max-width:$max){
         @content;
     }
 }
 
-@mixin devices_min($min){
+@mixin custom_devices_min($min){
     @media only screen and (min-width: $min){
         @content;
     }
 }
 
-@mixin devices_max($max){
+@mixin custom_devices_max($max){
     @media only screen and (max-width: $max){
         @content;
     }
