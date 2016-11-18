@@ -1,0 +1,86 @@
+.not-break{
+    .col-1{
+        @include devices_max(medium){
+            max-width: 50%;
+            width: 50%;
+            flex-basis: 50%;
+        }
+    }
+    .col-2{
+        @include devices_max(medium){
+            max-width: 16.66667%;
+            width: 16.66667%;
+            flex-basis: 16.66667%;
+        }
+    }
+    .col-3{
+        @include devices_max(medium){
+            max-width: 25%;
+            width: 25%;
+            flex-basis: 25%;
+        }
+    }
+    .col-4{
+        @include devices_max(medium){
+            max-width: 33.33333%;
+            width: 33.33333%;
+            flex-basis: 33.33333%;
+        }
+    }
+    .col-5{
+        @include devices_max(medium){
+            max-width: 41.66667%;
+            width: 41.66667%;
+            flex-basis: 41.66667%;
+        }
+    }
+    .col-6{
+        @include devices_max(medium){
+            max-width: 50%;
+            width: 50%;
+            flex-basis: 50%;
+        }
+    }
+    .col-7{
+        @include devices_max(medium){
+            max-width: 58.33333%;
+            width: 58.33333%;
+            flex-basis: 58.33333%;
+        }
+    }
+    .col-8{
+        @include devices_max(medium){
+            max-width: 66.66667%;
+            width: 66.66667%;
+            flex-basis: 66.66667%;
+        }
+    }
+    .col-9{
+        @include devices_max(medium){
+            max-width: 75%;
+            width: 75%;
+            flex-basis: 75%;
+        }
+    }
+    .col-10{
+        @include devices_max(medium){
+            max-width: 83.33333%;
+            width: 83.33333%;
+            flex-basis: 83.33333%;
+        }
+    }
+    .col-11{
+        @include devices_max(medium){
+            max-width: 91.66667%;
+            width: 91.66667%;
+            flex-basis: 91.66667%;
+        }
+    }
+    .col-12{
+        @include devices_max(medium){
+            max-width: 100%;
+            width: 100%;
+            flex-basis: 100%;
+        }
+    }
+}
