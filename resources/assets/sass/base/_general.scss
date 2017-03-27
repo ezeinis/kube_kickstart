@@ -38,3 +38,10 @@
     @include flex-center;
     @include flex-middle;
 }
+.parallax-window{
+    background: transparent;
+    min-height: 300px;
+}
+.hidden {
+    display: none;
+}
