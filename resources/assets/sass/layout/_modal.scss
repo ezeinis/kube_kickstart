@@ -1,0 +1,66 @@
+.modal-header {
+	background-color: #000;
+
+	.home_title_header {
+		color: white;
+		margin: 0;
+		text-align: left;
+	}
+
+}
+
+.modal-body {
+	background-color: #000;
+	.form-item {
+		width: 100%;
+
+	}
+
+	input{
+		background-color: #000;
+		border: 2px solid white;
+		color: white;
+	}
+
+	input::placeholder{
+		color: #ccc;
+	}
+
+	textarea {
+		resize: none;
+		height: 168px;
+		background-color: #000;
+		border: 2px solid white;
+		color: white;
+	}
+
+	textarea::placeholder{
+		color: #ccc;
+	}
+
+	button {
+		margin-top: 30px;
+		border: 2px solid white;
+		color: white;
+		text-decoration: none;
+		padding: 15px;
+		transition: all 0.4s ease;
+		background-color: #000;
+		&:hover {
+			color: #000;
+			background-color: white;
+		}
+	}
+
+}
+
+.modal{
+	font-family: proxima-nova, sans-serif!important;
+
+	.close{
+		color: white;
+	}
+	.form_submit_btn_container{
+		width: 100%;
+	}
+}
