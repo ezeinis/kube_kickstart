@@ -1,0 +1,24 @@
+#header{
+  ul {
+    .submenu {
+      margin: 0;
+      position: absolute;
+      background-color: white;
+      display: none;
+      box-shadow: 0 4px 4px -4px #ccc,4px 0 4px -4px #ccc,-4px 0 4px -4px #ccc;
+      li{
+        margin-left: 0!important;
+        a{
+          display: block;
+          padding: 15px 30px;
+        }
+      }
+      &:hover {
+        display: block;
+      }
+    }
+    a:hover+ul{
+      display: block;
+    }
+  }
+}
