@@ -38,8 +38,8 @@
 }
 .flex-middle {
     @include flex;
-    @include flex-center;
-    @include flex-middle;
+    @include flex-items-center;
+    @include flex-items-middle;
 }
 .parallax-window{
     background: transparent;
