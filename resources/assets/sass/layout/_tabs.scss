@@ -14,21 +14,21 @@
 			margin-bottom: 10px;
 		}
 		a {
-			color: $text-color;
+			color: #000;
 			text-decoration: none;
 			cursor: pointer;
 			margin: 0 5px;
 			border-bottom: 2px solid white;
 			padding-bottom: 5px;
 			&:hover {
-				border-bottom: 2px solid $gold;
+				border-bottom: 2px solid red;
 			}
 		}
 		&.active {
 			a {
-				color: $text_color;
+				color: #000;
 				font-weight: 700;
-				border-bottom: 2px solid $gold;
+				border-bottom: 2px solid red;
 			}
 		}
 	}
