@@ -137,25 +137,25 @@
 
 .flex-middle {
     @include flex;
-    @include flex-center;
-    @include flex-middle;
+    @include flex-items-center;
+    @include flex-items-middle;
 }
 .flex-middle-left {
     @include flex;
-    @include flex-middle;
+    @include flex-items-middle;
 }
 .flex-middle-right {
     @include flex;
-    @include flex-right;
-    @include flex-middle;
+    @include flex-items-right;
+    @include flex-items-middle;
 }
 .flex-bottom-right {
     @include flex;
-    @include flex-right;
-    @include flex-bottom;
+    @include flex-items-right;
+    @include flex-items-bottom;
 }
 .flex-bottom-left {
     @include flex;
-    @include flex-bottom;
+    @include flex-items-bottom;
 }
 
