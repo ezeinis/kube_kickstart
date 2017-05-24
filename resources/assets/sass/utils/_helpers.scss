@@ -1,4 +1,6 @@
 .not-break{
+    flex-direction: row;
+    flex-wrap: wrap;
     .col-1{
         @include devices_max(medium){
             max-width: 8.33333%;
