@@ -1,0 +1,47 @@
+.status_message {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    z-index: 9999;
+}
+.success_message {
+    background-color: green;
+
+}
+
+.error_message {
+    background-color: red;
+
+}
+
+.status_message {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 15;
+  }
+  .status_message p{
+    margin: 0;
+  }
+  .status_message span{
+    position: fixed;
+        top: 10px;
+        right: 20px;
+        bottom: 10px;
+        z-index: 16;
+  }
+
+.status_message.error {
+    background-color: #f03c69;
+}
+
+.status_message.success {
+    background-color: #35beb1;
+}
+
+.status_message.displayed {
+    display: block!important;
+}
