@@ -3,7 +3,6 @@
     color: white;
     padding: 10px;
     border-radius: 3px;
-    z-index: 9999;
 }
 .success_message {
     background-color: green;
@@ -21,7 +20,7 @@
     top: 0;
     right: 0;
     left: 0;
-    z-index: 15;
+    z-index: 9999;
   }
   .status_message p{
     margin: 0;
