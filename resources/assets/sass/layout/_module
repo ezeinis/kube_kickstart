@@ -3,4 +3,4 @@
 @import "tabs";
 @import "modal";
 @import "submenu";
-@import "status_message";
+@import "status_messages";
