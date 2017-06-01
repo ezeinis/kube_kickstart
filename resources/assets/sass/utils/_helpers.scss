@@ -125,6 +125,18 @@
     }
 }
 
+.hidden-sm{
+    @include devices_max(small){
+        display: none;
+    }
+}
+
+.hidden-md{
+    @include devices_max(medium){
+        display: none;
+    }
+}
+
 .container-inner {
     width: 50%;
     margin-left: auto;
