@@ -11,12 +11,9 @@
 
     @yield('header')
     
-    @inject('frontHelp', 'Library\FrontendHelperLib')
     <script type="text/javascript">
         var routes = {
-            base_url: "<?php echo URL::to('/').'/'; ?>",
-            send: "<?php echo $frontHelp->pRoute('send_email',$_ENV['LANG'],$_ENV['WEBSITE'],'post'); ?>",
-            news: "<?php echo route('newsletter.subscribe'); ?>"
+            
         }
     </script>
 </head>
