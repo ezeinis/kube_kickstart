@@ -20,6 +20,48 @@
         padding-left: 15px;
     }
 }
+.container-left{
+    padding-left: 24%;
+    @include custom_devices_max(1920px){
+        padding-left: 17%;
+    }
+    @include custom_devices_max(1600px){
+        padding-left: 10%;
+    }
+    @include custom_devices_max(1440px){
+        padding-left: 5%;
+    }
+    @include devices(medium,large){
+        padding-left: 30px;
+    }
+    @include devices(small,medium){
+        padding-left: 25px;
+    }
+    @include devices_max(small){
+        padding-left: 15px;
+    }
+}
+.container-right{
+    padding-right: 24%;
+    @include custom_devices_max(1920px){
+        padding-right: 17%;
+    }
+    @include custom_devices_max(1600px){
+        padding-right: 10%;
+    }
+    @include custom_devices_max(1440px){
+        padding-right: 5%;
+    }
+    @include devices(medium,large){
+        padding-left: 30px;
+    }
+    @include devices(small,medium){
+        padding-left: 25px;
+    }
+    @include devices_max(small){
+        padding-left: 15px;
+    }
+}
 .container-fluid{
     width: 100%;
 }
